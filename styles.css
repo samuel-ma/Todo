@@ -1,14 +1,13 @@
 
 :root{
 
-    --blue: rgb(215,248,254);
+    --blue: rgb(0, 217, 255);
     --grey: rgba(102, 102, 102, 0.432);
     --gradient: #FF3D77;
     --gradient2: rgb(242,187,48);
     --dark-background: rgb(44,49,53);
     --dark-card: rgb(34,38,43);
-    --dark-gradient: linear-gradient(45deg,#EE0A67, #FEA1BE);    
-
+    --dark-gradient: linear-gradient(to right, #f32170,#ff6b08, #cf23cf, #eedd44);
 }
 
 body{
@@ -35,8 +34,8 @@ body{
 
 h1{
     text-align: center;
-    background: var(--blue);
-    color: var(--dark-card);
+    background: var(--dark-gradient);
+    color: white;
     padding: 20px;
     font-size: 30px;
     font-weight: bold;
